@@ -1,0 +1,46 @@
+.hide-for-mobile{
+    @media (max-width: 59.99em) {
+        display: none;
+    }
+}
+
+
+.for-dextop{
+     @media (min-width: 59.99em) {
+          padding: 3em 0;
+     }
+
+}
+
+.home-page-mobile{
+    @media (max-width: 60em) {
+       height: 100vh; 
+    }
+}
+.for-mobile{
+    @media (min-width: 60em) {
+        background-size: 100%;
+    }  
+    &-about {
+
+        display: flex;
+        justify-content: center;
+        &-text {
+             @media (min-width: 61rem) {
+                 text-align: left;
+             }
+            text-align: center;
+        }
+        & img{
+            @media (max-width: 59.99rem) {
+                width: 20rem;
+                margin-bottom: 2.5rem;
+                display: block;
+            }
+            
+            width: 30rem;
+            border-radius: 1em;
+        }
+    }
+    
+}

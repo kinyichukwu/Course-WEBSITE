@@ -1,0 +1,30 @@
+@import 'mediaquery';
+@import 'header';
+@import 'mainpage';
+@import 'services';
+@import 'about';
+@import 'contact-us';
+@import 'footer';
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.circular-img{
+     border-radius: 1em;
+}
+
